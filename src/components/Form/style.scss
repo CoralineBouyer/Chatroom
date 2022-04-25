@@ -1,0 +1,22 @@
+@use 'src/styles/vars';
+
+.form {
+  display: flex;
+  font-size: 1.3em;
+  &-input {
+    background-color: white;
+    border: 0;
+    padding: 1.5rem 2rem;
+    flex-grow: 1;
+  }
+  &-button {
+    background-color: white;
+    border: 0;
+    padding: 0.5rem 1rem;
+    color: vars.$colorText;
+
+    &:hover, &:focus {
+      background-color: #eee;
+    }
+  }
+}
